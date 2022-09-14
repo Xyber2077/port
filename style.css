@@ -5,13 +5,19 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-body{
+main{
+  background-image: url(u1.jpg);
+  background-color:rgb(255, 255, 255) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height:200vh;
 }
 .hero{
 	height: 100vh;
     width: 100%;
-    background-image: url(wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg);
+    background-image: url(cc.jpg);
+
     background-color:rgb(255, 255, 255) ;
     background-position: top;
     background-size: cover;
@@ -77,4 +83,36 @@ nav li a:hover{
 #name h1{
     font-size: 4em;
 }
+.details{
+ 
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 100%; */
+}
+.details > div{
+  width:300px;
+ text-align: center;
+  border: 1px solid #333;
+  height: 300px;
+}
+ 
+#about h3,
+#skills h3,
+#work h3{
+  border-bottom: 1px solid #333;
+  padding: 15px;
+  text-align: center;
+
+}
+.details ul,
+.details p,
+.details li{
+
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
 
