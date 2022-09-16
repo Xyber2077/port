@@ -8,7 +8,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 main{
-  background-image: url(gray.jpg);
+  background-image: url(abc.jpg);
   background-color:rgb(255, 255, 255) ;
   background-position:center;
   background-size: cover;
@@ -48,6 +48,8 @@ nav ul li a{
   text-decoration:none;
   font-family: Arial, Helvetica, sans-serif;
   color:grey;
+  font-family: cursive;
+  font-size: 25px;
 }
 
 nav > a{
