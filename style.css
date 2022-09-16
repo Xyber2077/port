@@ -8,7 +8,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 main{
-  background-image: url(u1.jpg);
+  background-image: url(gray.jpg);
   background-color:rgb(255, 255, 255) ;
   background-position:center;
   background-size: cover;
@@ -68,7 +68,7 @@ nav > a:hover{
 
 nav li a:hover{
   text-decoration: underline;
-  color: rgb(246, 6, 6);
+  color: rgb(255, 0, 0);
   
 }
 h2{
@@ -121,7 +121,10 @@ h3{
   top: 6px;
   right:6px;
 }
-
+.natiq{
+color: rgb(255, 6, 6);
+font-family:cursive ;
+}
 
 
 .details{
