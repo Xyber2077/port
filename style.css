@@ -8,12 +8,14 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 main{
-  background-image: url(abc.jpg);
-  background-color:rgb(255, 255, 255) ;
-  background-position:center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:200vh;
+  /* background-image: url(bg3.jpg); */
+  /* background-color:rgba(0, 0, 0, 0.442) ; */
+  /* background-position:center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  height:100vh;
+  /* background-blend-mode: multiply; */
+  background: linear-gradient(45deg,rgb(128, 0, 128),rgb(24, 6, 112));
 }
 .hero{
 	height: 100vh;
