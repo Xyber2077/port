@@ -31,8 +31,8 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding-top: 45px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
 
 
 }
@@ -73,29 +73,37 @@ nav li a:hover{
   color: rgb(255, 0, 0);
   
 }
+h1{
+font-size: 30px;
+}
 h2{
-  font-size: 4em;
+  font-size: 35px;
+  font-family: cursive;
+}
+#name h2{
+  font-size: 5rem;
   font-family: cursive;
   
 }
 
 
+h3{
+  font-size: 18px;
+  margin-bottom: 50px;
+  color:grey;
+}
 
 
 #name{
   padding-left: 50px;
-  height:100%;
+  height:80%;
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items:flex-start ;
   color: rgb(249, 246, 246);
-  font-family: cursive; 
-}
-h3{
-  font-size: 25px;
-  margin-bottom: 50px;
-  color:grey;
+  font-family: cursive !important;
+
 }
 .newslatter form{
   width: 380px;
@@ -127,7 +135,6 @@ h3{
 color: rgb(255, 6, 6);
 font-family:cursive ;
 }
-
 
 .details{
  
